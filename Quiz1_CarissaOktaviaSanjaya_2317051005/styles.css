@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image:url(background.jpg);
+    color: white;
+}
+nav {
+    background-color: rgba(47, 40, 40, 0.815);
+    padding: 10px;
+    text-align: right;
+}
+nav a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.profile-card, .schedule {
+    background-color:rgba(47, 40, 40, 0.815);
+    padding: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+.btn {
+    color: white;
+    padding: 10px 15px;
+    background-color: hotpink;
+    border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: rgb(65, 150, 109);
+}
+table {
+    border: 1px solid white;
+    margin: auto;
+}
+th, td {
+    text-align: center;
+    padding: 15px 30px;
+}
+th {
+    background-color:lightcoral;
+}
